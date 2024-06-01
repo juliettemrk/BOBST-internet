@@ -1,0 +1,81 @@
+
+
+.big-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fdf2f2;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    display: block; /* Assure que chaque titre est sur une nouvelle ligne */
+    padding: 5px;
+    color: #ad1212;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+
+h2 {
+    display: block; /* Assure que chaque titre est sur une nouvelle ligne */
+    padding: 5px;
+    font-size: 15px;
+    font-style: italic;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: italic;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.video-container {
+    max-width: 100%; /* Pour s'adapter à la largeur du conteneur parent */
+    height: auto; /* Hauteur fixe, en conservant le rapport d'aspect 16:9 */
+    text-align: center;
+    margin: 20px;
+    border: 2px solid black;
+
+}
+
+.video-container video {
+    max-width: 100%; /* Pour limiter la largeur de la vidéo */
+    height: auto; /* Pour conserver le ratio hauteur/largeur */
+    margin: 0 auto;
+    display: block;
+}
+
+.video-upload input[type="file"] {
+    display: block; /* Assure que la vidéo est sur une nouvelle ligne */
+    margin: 0 auto; /* Centre la vidéo horizontalement */
+    padding-bottom: 20px;
+}
+
+
+
